@@ -12,6 +12,7 @@ import PiniaIcon from './shared/components/icons/PiniaIcon.vue';
 
 			<nav>
 				<RouterLink to="/">Counter Options</RouterLink>
+				<RouterLink to="/counter-setup">Counter Setup</RouterLink>
 			</nav>
 		</div>
 	</header>

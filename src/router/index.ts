@@ -1,5 +1,6 @@
+import CounterPage from '@/counter/pages/CounterPage.vue';
+import CounterSetupPage from '@/counter/pages/CounterSetupPage.vue';
 import { createRouter, createWebHistory } from 'vue-router';
-import CounterPage from '@/pages/CounterPage.vue';
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,6 +9,11 @@ const router = createRouter({
 			path: '/',
 			name: 'home',
 			component: CounterPage,
+		},
+		{
+			path: '/counter-setup',
+			name: 'counter-setup',
+			component: CounterSetupPage,
 		},
 	],
 });
